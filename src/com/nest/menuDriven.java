@@ -1,11 +1,16 @@
 package com.nest;
 
+import com.hotel.Hotel;
+
 import java.util.Scanner;
 
 public class menuDriven {
     public static void main(String[] args) {
         System.out.println("Menu Driven");
         int choice;
+
+        StudentsData studentsData = new StudentsData(07,250);
+        StudentsData newStudentData = new StudentsData(10,500);
 
         while (true){
             System.out.println("Select an Option");
